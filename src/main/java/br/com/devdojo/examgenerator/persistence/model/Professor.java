@@ -2,8 +2,8 @@ package br.com.devdojo.examgenerator.persistence.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import org.hibernate.validator.constraints.NotEmpty;
-import org.hibernate.validator.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Email;
 
 /**
  * @author Manoel Vieira
