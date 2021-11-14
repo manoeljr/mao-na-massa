@@ -3,6 +3,7 @@ package br.com.devdojo.examgenerator.persistence.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
+import javax.validation.constraints.NotEmpty;
 
 
 /**

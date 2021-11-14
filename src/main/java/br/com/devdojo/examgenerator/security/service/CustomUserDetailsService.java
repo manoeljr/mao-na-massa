@@ -30,7 +30,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         ApplicationUser applicationUser = loadApplicationUserByUsername(username);
-        return null;
+        return new CustomUserDetails(applicationUser);
     }
 
     public ApplicationUser loadApplicationUserByUsername(String username) {
